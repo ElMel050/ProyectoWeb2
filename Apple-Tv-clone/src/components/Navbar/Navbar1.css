@@ -1,0 +1,16 @@
+/* Alternativa si no está dentro de <main> */
+.cont-nav {
+    background-color: #000;
+    width: 100%;
+    min-height: 2em;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0;
+    color: rgba(236, 245, 255, 1);
+    display: block;
+}
+.lol{
+    margin-right: 25rem;
+}

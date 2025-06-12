@@ -11,7 +11,7 @@ export default function Buscador() {
                 <input type="text" placeholder="Buscar" />
                 <button type="submit">Buscar</button>
             </form>
-            <button>
+            <button onClick={}>
                 Enlace pagina 1 form
             </button>
         </div>
