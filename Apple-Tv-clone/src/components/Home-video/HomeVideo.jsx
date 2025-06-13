@@ -60,7 +60,7 @@ function HomeVideo() {
                             {({ inView, ref }) => (
                                 <motion.p
                                     ref={ref}
-                                    className="lead mb-4 text-white"
+                                    className="lead mb-4 text-white "
                                     initial={{ opacity: 0, y: 50 }}
                                     animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                                     transition={{ duration: 0.6, delay: index * 0.2 }}

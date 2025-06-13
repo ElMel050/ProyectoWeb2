@@ -44,7 +44,7 @@ export default function HomeVideo() {
                 <h2>Todos los Apple Originals.<br />Sólo en Apple TV+.</h2>
                 <div className="cta-buttons">
                     <a href="https://tv.apple.com/channel/tvs.sbd.4000" target="_blank" rel="noreferrer">Ver ahora</a>
-                    <a href="https://tv.apple.com/channel/tvs.sbd.4000" target="_blank" rel="noreferrer">Pruébalo gratis</a>
+                    <a href="https://tv.apple.com/channel/tvs.sbd.4000" target="_blank" rel="noreferrer">Pr uébalo gratis</a>
                 </div>
                 <p className="watch-on">Ver en la app Apple TV</p>
             </div>

@@ -14,17 +14,17 @@ function App() {
 
   return (
     <>
-      <div>
-        <Navbar1 />
+      <div className='div-cont'>
+        {/*<Navbar1 />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Show1" element={<Show1 />} />
           {/*<Route path="/Search" element={<Search1 />} />
-          <Route path="/" element={<Show1 />} />  */}
+          <Route path="/" element={<Show1 />} />  /////
         </Routes>
 
-        <div className="foot ">booee</div>
-
+        <div className="foot ">booee</div> */}
+        <Home />
       </div>
 
     </>
