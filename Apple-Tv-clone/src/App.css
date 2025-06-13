@@ -1,16 +1,18 @@
 .lolas-div{
   background-color: #c54b4b;
-  padding: 20px;
+
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width:auto;
+
 }
 Navbar1{
   border: 1px solid #df1a1a;
-  padding: 10px;
   border-radius: 5px;
   background-color: #5c5c5c;
 }
 .div-cont{
   background-color: #5c5c5c;
+}
+body{
+  overflow-x: hidden;
 }

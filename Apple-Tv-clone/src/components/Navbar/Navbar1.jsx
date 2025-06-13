@@ -12,7 +12,7 @@ const Navbar1 = () => {
     };
 
     return (
-        <div className="container-fluid cont-nav mx-3" style={{ maxHeight: '1em' }}>
+        <div className="container-fluid cont-nav " style={{ maxHeight: '1em' }}>
             <Navbar expand="sm" fixed="top" className='py-1'>
                 <Container>
                     <Navbar.Brand as={Link} to="/" style={{ maxWidth: '2rem' }}>

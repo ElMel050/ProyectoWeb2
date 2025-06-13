@@ -8,6 +8,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar1 from './components/Navbar/Navbar1.jsx';
 import Home from './pages/Home/Home.jsx';
+import AppleTV from './pages/AppleTV/AppleTV.jsx';
 import Show1 from './pages/Show/Show1.jsx';
 
 function App() {
@@ -15,18 +16,22 @@ function App() {
   return (
     <>
       <div className='div-cont'>
-        {/*<Navbar1 />
+        <Navbar1 />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/AppleTV" element={<AppleTV />} />
           <Route path="/Show1" element={<Show1 />} />
-          {/*<Route path="/Search" element={<Search1 />} />
-          <Route path="/" element={<Show1 />} />  /////
         </Routes>
-
-        <div className="foot ">booee</div> */}
-        <Home />
+        <div className="foot container">booee
+          <h1>
+            loasssssssssssssssss
+          </h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ex atque exercitationem illum voluptatem optio harum excepturi 
+            molestias corporis ipsa, voluptas incidunt voluptate! Ut pariatur 
+            inventore recusandae itaque magni fugit suscipit?</p>
+        </div>
       </div>
-
     </>
   )
 }

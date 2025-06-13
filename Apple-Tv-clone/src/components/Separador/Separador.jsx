@@ -5,7 +5,7 @@ import './Separador.css'
 
 const Separador =()=> {
     return(
-        <Container fluid className=" my-3 ">
+        <Container  className=" my-3 ">
             <div className="separador"></div>
         </Container>
     )
